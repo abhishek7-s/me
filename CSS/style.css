@@ -1,0 +1,140 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    /* background-color: aquamarine; */
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+    /* background-color: rgb(191, 237, 92); */
+    position: relative;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 3vw;
+    height: 100px; 
+    background-color: transparent;
+    border-bottom: 2px solid;
+    /* background-color: rgb(205, 123, 112); */
+}
+
+nav h1{
+    font-size: 3vw;
+}
+
+.navItem{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 0 20px;
+}
+
+.navItem h2{
+    font-size: 1.5vw;
+    /* display: none; */
+}
+nav i{
+    display: none;
+}
+
+
+@media screen and (max-width:1200px) {
+    nav{
+        height: 150px;
+    }
+    nav i{
+        display: block;
+        font-size: 7vw;
+        /* font-weight: 900; */
+    }
+    nav h2{
+        display: none;
+    }
+    nav h1{
+        font-size: 6vw;
+    }
+
+
+}
+
+.content{
+    height: 70vh;
+    /* width: 100%; */
+    padding: 10px 40px;
+    /* background-color: rgb(89, 95, 95); */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* flex-wrap: wrap; */
+    border-bottom: 2px solid;
+}
+.left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: inherit;
+    width: 40%;
+    /* background-color: red; */
+    font-size: 30px;
+    flex-direction: column;
+}
+.left span{
+    color: rgba(0,223,192,255);
+}
+.right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: inherit;
+    width: 55%;
+    /* background-color: royalblue; */
+}
+.right img{
+    height: inherit;
+    width: 60%;
+}
+.socials{
+    display: flex;
+    padding-top: 50px;
+    width: 30%;
+    justify-content: space-around;
+}
+
+@media (max-width:1200px) {
+    .content{
+        /* background-color: aquamarine; */
+        flex-direction: column;
+        padding: 50px;
+    }
+    .left{
+        width: 80vw;
+    }
+    .left h1{
+        font-size: 7vw;
+    }
+    .left span{
+        font-size: 10.5vw;
+    }
+    .left p{
+        font-size: 4.5vw;
+    }
+    .socials{
+        width: 50vw;
+        /* justify-content: start; */
+    }
+    .left i{
+        font-size: 9vw;
+        justify-content: space-between;
+    }
+    .right img{
+        width: 80vw;
+        height: 40vh;
+    }
+}
