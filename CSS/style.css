@@ -203,10 +203,12 @@ nav i{
     color: aquamarine;
     background-color: white;
     transition: ease-in-out 0.5s ;
+    border: 3px solid ;
 }
 
 .abtme button:hover{
     background-color: rgb(69, 77, 74);
+    border-color: transparent;
 }
 
 @media (max-width:1200px) {
