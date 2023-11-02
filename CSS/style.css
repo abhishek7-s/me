@@ -22,6 +22,7 @@ nav{
     height: 100px; 
     background-color: transparent;
     border-bottom: 2px solid;
+    border-radius: 2vw;
     /* background-color: rgb(205, 123, 112); */
         /* position: fixed; */
 
@@ -38,8 +39,10 @@ nav h1{
     padding: 0 20px;
 }
 
-.navItem h2{
-    font-size: 1.5vw;
+.navItem a{
+    font-size: 1.7vw;
+    text-decoration: none;
+    color: black;
     /* display: none; */
 }
 nav i{
@@ -61,7 +64,7 @@ nav i{
         font-size: 7vw;
         /* font-weight: 900; */
     }
-    nav h2{
+    nav a{
         display: none;
     }
     nav h1{
@@ -80,7 +83,7 @@ nav i{
     align-items: center;
     justify-content: space-around;
     /* flex-wrap: wrap; */
-    border-bottom: 2px solid;
+    /* border-bottom: 2px solid; */
 }
 .left{
     display: flex;
@@ -100,8 +103,8 @@ nav i{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: inherit;
-    width: 50%;
+    height: 80vh;
+    width: 45%;
     margin: 0 0 0 50px;
     /* background-color: royalblue; */
 }
@@ -115,7 +118,7 @@ nav i{
 }
 
 .socials a{
-    font-size: 2.5vw;
+    font-size: 3.5vw;
     text-decoration: none;
     color: rgba(0,223,192,255);
 }
@@ -133,17 +136,17 @@ nav i{
         font-size: 7vw;
     }
     .left span{
-        font-size: 10.5vw;
+        font-size: 12.5vw;
     }
     .left p{
-        font-size: 4.5vw;
+        font-size: 5.5vw;
     }
     .socials{
         width: 50vw;
         /* justify-content: start; */
     }
     .left i{
-        font-size: 9vw;
+        font-size: 11vw;
         justify-content: space-between;
     }
     .content img{
@@ -159,7 +162,7 @@ nav i{
     height: 90vh;
     align-items: center;
     justify-content: space-around;
-    border-bottom: 2px solid;
+    /* border-bottom: 2px solid; */
 }
 
 .about img{
@@ -185,9 +188,25 @@ nav i{
 .abtme p{
     font-size: 1.8vw;
     /* font-weight: 600; */
+    padding-bottom: 50px;
 }
 .profilepic{
     display: none;
+}
+
+.abtme button{
+    height: 50px;
+    width: 150px;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 20vw;
+    color: aquamarine;
+    background-color: white;
+    transition: ease-in-out 0.5s ;
+}
+
+.abtme button:hover{
+    background-color: rgb(69, 77, 74);
 }
 
 @media (max-width:1200px) {
@@ -196,6 +215,7 @@ nav i{
         height: inherit;
         justify-content: center;
         align-items: center;
+        padding: 0 0 100px 0;
     }
     .abtme{
         width: inherit;
@@ -224,7 +244,15 @@ nav i{
     }
     .abtme p{
         font-size: 6vw;
-        padding: 20px 0 0 0;
+        padding: 20px 0 80px 0;
+
+    }
+
+    .abtme button{
+        height: 150px;
+        width: 350px;
+        font-size: 40px;
+        font-weight: 800;
     }
 
 
@@ -258,7 +286,7 @@ nav i{
     justify-content: space-around;
     height: 450px;
     width: 400px;
-    border: 3px solid rgba(0,223,192,255);
+    border: 5px solid rgba(0,223,192,255);
     border-radius: 5vw ;
     /* background-image: linear-gradient(to bottom , rgba(0,223,192,255), rgba(225, 159, 232, 0.42)); */
 }
@@ -309,7 +337,7 @@ nav i{
     flex-direction: column;
     height: 80vh;
     /* background-color: rgb(18, 0, 118); */
-    border-bottom: 2px solid;
+    /* border-bottom: 2px solid; */
 }
 .skills h1{
     font-size: 4vw;
