@@ -10,18 +10,27 @@
 </head>
 <body>
 
-    <div class="main">
+    <div class="main dark" id="main">
         <nav>
-            <h1><img src="img/logo.png" alt="" srcset=""></h1>
+            <img src="img/aslogo.png" id="logo">
 
-            <div class="navItem">
+            <div class="navItem" id="navItem">
                 <a href="#">Home</a>
                 <a href="#about">About</a>
                 <a href="#skills">Skills</a>
                 <a href="#projectsection">Projects</a>
                 <a href="#">Blog</a>
-                <i class="ri-menu-3-line"></i>
+                <div>
+                    <input type="checkbox" class="checkbox" id="checkbox">
+                    <label for="checkbox" class="checkbox-label">
+                      <i class="ri-moon-fill"></i>
+                      <i class="ri-sun-fill"></i>
+                      <span class="ball"></span>
+                    </label>
+                  </div> 
             </div>
+                         
+            <i class="ri-menu-3-line" id="toggle-btn"></i>
 
 
         </nav>
@@ -39,7 +48,7 @@
                 </div>
             </div>
 
-            <img src="img/mainimg.jpg" alt="main imagne" class="right">
+            <img src="img/mainimg2.png" alt="main imagne" class="right">
 
             <!-- <div class="right">
             </div> -->
@@ -47,15 +56,17 @@
         </div>
 
         <div class="about" id="about">
+            
+            <img src="img/mypic2.png" alt="My pic" id="pcpic">
 
-                <img src="img/mypic.png" alt="My pic">
-                
+            <div class="abtme">
+                <h1>About Me</h1>
 
-                <div class="abtme">
-                    <h1>About Me</h1>
+                    <!-- <div class="profilepic">  
+                        <img src="img/mainimg1.png">     
+                   </div> -->
 
-                    <div class="profilepic">       
-                   </div>
+                   <img src="img/logo.png" alt="My pic" id="mobpic">
 
                     <p>I am currently pursuing a Bachelor of Engineering in Computer Engineering from Pune University. I'm a proficient web developer with expertise in HTML, CSS, JavaScript, and WordPress.
                     <br><br>
@@ -123,5 +134,8 @@
 
     </div>
     
+
+
+    <script src="JS/script.js"></script>
 </body>
 </html>
