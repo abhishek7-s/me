@@ -535,6 +535,7 @@ nav i{
     border-radius: 5vw ;
     box-shadow: 1px 1px 25px 12px rgba(173, 216, 230, 0.368);
     transition: 0.35s ease-in-out;
+    background-color: rgba(127, 255, 212, 0.050);
 }
 
 
@@ -547,6 +548,11 @@ nav i{
     border: 5px solid  rgba(0,223,192,255);
 }
 
+.pr1 h1{
+    color: rgb(77, 255, 181);
+    padding: 10px 0;
+}
+
 .pr1 p{
     padding:10px;
     margin: 10px;
@@ -557,6 +563,16 @@ nav i{
     font-weight: 800;
     text-decoration: none;
     color:aquamarine;
+}
+
+.links a{
+    font-size: 45px;
+    padding: 0 20px ;
+    transition: ease-in-out 0.25s;
+}
+.links a:hover{   
+    font-size: 42px;
+    color: rgb(163, 77, 255);
 }
 
 @media (max-width:1100px) {
