@@ -527,36 +527,63 @@ nav i{
 .pr1{
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    margin: 30px;
-    height: 450px;
-    width: 400px;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    height: 420px;
+    width: 350px;
     border: 5px double rgb(69, 123, 106);
-    border-radius: 5vw ;
+    border-radius: 10% ;
     box-shadow: 1px 1px 25px 12px rgba(173, 216, 230, 0.368);
     transition: 0.35s ease-in-out;
     background-color: rgba(127, 255, 212, 0.050);
 }
 
-
+.prImg{
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    width: 100%;
+}
+.prImg img{
+    height: 90%;
+    width: 90%;
+    border-radius: 5%;
+}
+.prInfo{
+    /* background-color:green; */
+    height: 35%;
+    width: 100%;
+}
+.links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: brown; */
+    height: 15%;
+    width: 100%;
+}
 
 .pr1:hover{
     box-shadow: 1px 1px 45px 1px rgb(151, 212, 233);
-    height: 460px;
-    width: 410px;
+    /* height: 352px; */
+    /* width: 302px; */
     margin: 10px;
     border: 5px solid  rgba(0,223,192,255);
 }
 
-.pr1 h1{
+.prInfo h1{
     color: rgb(77, 255, 181);
-    padding: 10px 0;
+    /* padding: 10px 0; */
 }
 
-.pr1 p{
-    padding:10px;
-    margin: 10px;
-    font-size: 30px;
+.prInfo p{
+    /* background-color: red; */
+    padding:5px;
+    margin: 5px;
+    font-size: 16px;
 }
 .pr1 a{
     font-size: 30px;
