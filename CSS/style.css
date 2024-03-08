@@ -615,31 +615,26 @@ nav i{
         /* align-items: center; */
     }
     .pr1{
-        padding-bottom: 2vw;
+        padding-bottom: 1vw;
         height: 1000px;
         width: 800px;
     }
     .pr1:hover{
         box-shadow: 1px 1px 5vw 1px lightblue;
-        height: 1050px;
-        width: 850px;
         border: 5px solid rgb(69, 123, 106);
     }
-    .pr1 p{
-        padding:30px;
-        font-size: 6vw;
+    .prInfo h1{
+        font-size: 80px;
     }
-    .pr1 a{
-        font-size: 70px;
+    .prInfo p{
+        font-size: 30px;
+    }
+    .links a{
+        font-size: 100px;
         font-weight: 800;
-        text-decoration: none;
-        /* color: rosybrown; */
+        text-decoration: none; 
     }
 }
-
-
-
-
 
 
 .footer{
